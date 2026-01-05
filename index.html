@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>热处理气氛成本分析系统</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @media print {
+        .no-print { display: none !important; }
+        .print-only { display: block !important; visibility: visible !important; position: static !important; }
+        body { background: white !important; margin: 0; padding: 0; }
+        #root { padding: 0; }
+      }
+      .print-only { display: none; }
+    </style>
+</head>
+<body class="bg-slate-50 font-sans antialiased text-slate-900">
+    <div id="root"></div>
+    <!-- 路径必须是 /index.tsx，Vite 会处理它 -->
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
